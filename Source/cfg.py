@@ -1,15 +1,15 @@
 HOST          = "irc.twitch.tv"
 PORT          = 6667
-NICK          = #<bot's twitch nickname>
-PASS          = #<twitch authorization code>
-CHANNEL       = #<channel>
+NICK          = "kocchibot"
+PASS          = "oauth:f0poxer58r8997acjj28e2u0d4l6ac"
+CHANNEL       = "komor_"
 DELAY_RATE    = 3
 
-SUMMONER_NAME     = #<lol nickname>
-SUMMONER_ID       = #<lol summoner id>
-API_KEY           = #<riot's API key>
-API_REGION        = #<i. e. eun1, not eune>
-REGION            = #<region>
+SUMMONER_NAME     = "AloeKing"
+SUMMONER_ID       = "25333756"
+API_KEY           = "RGAPI-3be23697-fad6-4ab9-b922-23c9f1c1194f"
+API_REGION        = "eun1"
+REGION            = "eune"
 
 import socket
 from bot import sendMessage

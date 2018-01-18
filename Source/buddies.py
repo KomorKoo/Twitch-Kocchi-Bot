@@ -67,3 +67,11 @@ def lookForLongMsg(message):
 
 def getOPGG():
     return "http://" + REGION+ ".op.gg/summoner/userName=" + SUMMONER_NAME
+
+
+def checkRune(runeId, runeIds):
+    for id in runeIds:
+        if runeId == id:
+            return True
+
+    return False

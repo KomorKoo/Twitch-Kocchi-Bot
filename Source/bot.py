@@ -35,6 +35,9 @@ def respondToCommand(sock, message):
     elif message == "!opgg":
         sendMessage(sock, getOPGG())
 
+    elif message == "!runes":
+        sendMessage(sock, putTogetherAndGetRunesInfo())
+
 def readMessage(sock, message, username):
     '''
     if lookForCapsLock(message):
